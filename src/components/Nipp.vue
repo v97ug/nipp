@@ -37,8 +37,8 @@
     </form>
 
     <form class="pure-form pure-g">
-      <textarea v-model="inputText" placeholder="Input" rows="10" class="pure-u-1 pure-u-md-1-2"></textarea>
-      <textarea v-model="outputText" placeholder="Output" rows="10" class="pure-u-1 pure-u-md-1-2"></textarea>
+      <textarea v-model="inputText" placeholder="Input" rows="10" class="pure-u-1-2 pure-u-md-1-2"></textarea>
+      <textarea v-model="outputText" placeholder="Output" rows="10" class="pure-u-1-2 pure-u-md-1-2"></textarea>
     </form>
 
     <button v-on:click="showError = !showError" v-bind:style="{color: hasError? 'red': ''}" class="pure-button">Show/Hide error</button>
